@@ -127,6 +127,17 @@
   
   .buttontasks {
     border: none;
+    background: none;
+    font-family: 'MV Boli', 'Ink Free', 'Papyrus', 'Courier New', Courier, monospace;
+    transition-duration: 0.4s;
+    margin: 5px;
+  }
+
+  .buttontasks:hover {
+    border: none;
+    text-decoration: line-through;
+    opacity: 0.6;
+    background: none;
     font-family: 'MV Boli', 'Ink Free', 'Papyrus', 'Courier New', Courier, monospace;
     margin: 5px;
   }
@@ -138,4 +149,3 @@
     font-family: 'MV Boli', 'Ink Free', 'Papyrus', 'Courier New', Courier, monospace;
     margin: 5px;
 }
-
