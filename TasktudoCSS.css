@@ -1,11 +1,13 @@
   body {
     background-color: #f9f9f9;
+    display: flex;
+    flex-direction: column;
   }
 
   h1 {
     font-family: 'MV Boli', 'Ink Free', 'Papyrus', 'Courier New', Courier, monospace;
     size: 32px;
-    position: fixed;
+    position: absolute;
     margin-bottom: 430px;
   }
 
@@ -20,7 +22,6 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    align-self: center;
     height: 90vh;
   }
 
@@ -149,4 +150,3 @@
     font-family: 'MV Boli', 'Ink Free', 'Papyrus', 'Courier New', Courier, monospace;
     margin: 5px;
 }
-
