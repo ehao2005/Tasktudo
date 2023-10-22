@@ -72,7 +72,6 @@ function feed() {
     if (amtFood > 0 && !isDead) {
         setFood(amtFood-1);
         hunger = hunger + 4;
-        jump();
     }
     if (hunger > 12) {
         hunger = 12;
@@ -126,22 +125,4 @@ function completeTask() {
     this.style.display = "none";
     setCoins(coins+1)
     document.getElementById("pText").innerHTML = "Great! Complete Another Task!";
-}
-
-function jump() {
-    var pos = 0;
-    timer = setInterval(function() {
-        pos++;
-        document.getElementById("turtyImg").style.top = pos+"px";
-        if(pos > 30) clearInterval(timer);
-        },
-        20
-    );
-    timer = setInterval(function() {
-        pos++;
-        document.getElementById("turtyImg").style.bottom = pos+"px";
-        if(pos > 30) clearInterval(timer);
-        },
-        20
-    );
 }
