@@ -8,10 +8,11 @@ hunger = 12
 interval = 720000;
 
 function getTime() {
-    var time = prompt("How fast do you want Tasktudo's hunger to increase (in milliseconds)?");
+    var time = prompt("How fast do you want Tasktudo's hunger to increase?");
     interval = time;
 }
 
+//setInterval(checkHunger(), 720000)
 getTime()
 setInterval(checkHunger, interval)
 
@@ -123,7 +124,7 @@ function addTasks() {
 
 function completeTask(){
     this.innerHTML="Complete";
+    this.style.display = "none";
     setCoins(coins+1)
     document.getElementById("pText").innerHTML = "Great! Complete Another Task!";
 }
-
