@@ -8,11 +8,10 @@ hunger = 12
 interval = 720000;
 
 function getTime() {
-    var time = prompt("How fast do you want Tasktudo's hunger to increase?");
-    interval = time;
+    var time = prompt("How fast do you want Tasktudo's hunger to increase (in seconds)?");
+    interval = time/1000;
 }
 
-//setInterval(checkHunger(), 720000)
 getTime()
 setInterval(checkHunger, interval)
 
