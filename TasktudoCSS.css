@@ -1,0 +1,141 @@
+  body {
+    background-color: #f9f9f9;
+  }
+
+  h1 {
+    font-family: 'MV Boli', 'Ink Free', 'Papyrus', 'Courier New', Courier, monospace;
+    size: 32px;
+    position: fixed;
+    margin-bottom: 430px;
+  }
+
+  p {
+    font-family: 'MV Boli', 'Ink Free', 'Papyrus', 'Courier New', Courier, monospace;
+    margin: 5px;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    height: 90vh;
+  }
+
+  .display {
+    display: flex;
+    flex-wrap: nowrap;
+    float: left;
+    clear: none;
+  }
+
+  .buttons {
+    height: 50px;
+    width: 790px;
+    padding: 5px;
+    background: #9baba4;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-self: normal;
+    float: left;
+    clear: none;
+  }
+  
+  .Room {
+    background: url(Room.png);
+    width: 500px;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .TaskList {
+    background: url(ToDo.jpg);
+    width: 300px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+  }
+
+  .Tasks {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    float: right;
+  }
+
+  .Coins {
+    position: absolute;
+    margin-top: 450px;
+    margin-left: 100px;
+  }
+
+  .Food {
+    position: absolute;
+    margin-top: 450px;
+    margin-right: 100px;
+  }
+
+  .Turty {
+    margin-top: 275px;
+    margin-left: 150px;
+  }
+  
+  .HungerBar {
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 20px;
+    width: 240px;
+    margin: 15px;
+    margin-left: 250px;
+    display: flex;
+    justify-content: flex-start;
+    align-content: flex-start;
+  }
+
+  .button {
+    border: none;
+    height: 50px;
+    width: 200px;
+    color: black;
+    text-align: center;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 24px;
+    align-self: center;
+  }
+
+  .button:hover {
+    background-color: #9baba4;
+    color: white;
+  }
+
+  .disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+  }
+  
+  .buttontasks {
+    border: none;
+    font-family: 'MV Boli', 'Ink Free', 'Papyrus', 'Courier New', Courier, monospace;
+    margin: 5px;
+  }
+
+.task-button-class {
+    display: flex;
+    flex-direction: column;
+    border: none;
+    font-family: 'MV Boli', 'Ink Free', 'Papyrus', 'Courier New', Courier, monospace;
+    margin: 5px;
+}
+

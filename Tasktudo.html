@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Tasktudo!</title>
+    <link rel="stylesheet" href="TasktudoCSS.css">
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="display">
+        <div class="Room">
+          <div class="HungerBar">
+            <img src="HungerPXResized1.png" id="0">
+            <img src="HungerPXResized1.png" id ="1">
+            <img src="HungerPXResized1.png" id ="2">
+            <img src="HungerPXResized1.png" id ="3">
+            <img src="HungerPXResized1.png" id ="4">
+            <img src="HungerPXResized1.png" id ="5">
+            <img src="HungerPXResized1.png" id ="6">
+            <img src="HungerPXResized1.png" id ="7">
+            <img src="HungerPXResized1.png" id ="8">
+            <img src="HungerPXResized1.png" id ="9">
+            <img src="HungerPXResized1.png" id ="10">
+            <img src="HungerPXResized1.png" id ="11">
+            <!--replace this img w code that decrements hungerbar-->
+          </div>
+          <div class="Turty">
+            <img id="turtyImg" src="TasktudoResized.png">
+          </div>
+        </div>
+        <div class="TaskList">
+          <h1>TO DO:</h1>
+          <div class="Tasks" id="taskBTNList">
+            
+          </div>
+          <div class="Coins">
+            <p id="coinsNo">1 COIN</p>
+          </div>
+          <div class="Food">
+            <p id="foodNo">0 FOOD</p>
+          </div>
+        </div>  
+      </div>
+      <div class="buttons">
+        <button id="feedBTN" class="button" onclick="feed()">Feed</button>
+        <button id="buyFoodBTN" class="button" onclick="purchaseFood()">Buy Food</button>
+        <button id="accessBTN" class="button" onclick="putOnAccessory()">Accessory</button>
+        <button id="byAccessBTN" class="button" onclick="purchaseAccessory()">Buy Accessory</button>
+        <button class="button addTask" onclick="addTasks()">Add Task</button>
+      </div>
+    </div>
+    <script src="tasktudo.js"></script>
+  </body>
+</html>
